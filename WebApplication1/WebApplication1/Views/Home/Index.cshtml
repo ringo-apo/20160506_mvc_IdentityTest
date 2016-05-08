@@ -1,7 +1,9 @@
-﻿
+﻿@using Microsoft.AspNet.Identity
 @{
     ViewBag.Title = "Index";
 }
 
 <h2>Index</h2>
+
+<text>ログイン名は</text>@User.Identity.GetUserName()<text>です。</text>
 
